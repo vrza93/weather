@@ -13,6 +13,9 @@ body {
     rgba(0, 212, 255, 1) 100%
   );
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 .card {
   width: 90%;
