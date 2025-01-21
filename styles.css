@@ -107,7 +107,7 @@ body {
   display: none;
 }
 
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .search button {
     width: 600px;
     height: 60px;
@@ -117,6 +117,7 @@ body {
   }
   .card {
     width: auto;
+    margin: 0.8rem 0.2rem;
   }
   .search input {
     color: #000000;
@@ -128,43 +129,5 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr;
     gap: 30px;
-  }
-} */
-
-@media screen and (max-width: 480px) {
-  .search button {
-    width: 50px; /* Adjusted for reasonable width */
-    height: 50px; /* Adjusted for reasonable height */
-    border-radius: 50%;
-    padding: 15px;
-    margin: auto;
-  }
-
-  .card {
-    width: 90%; /* Ensures the card stays within screen width */
-    margin: 50px auto; /* Centers the card properly */
-  }
-
-  .weather {
-    display: block; /* Make sure weather info is visible on small screens */
-  }
-
-  .details {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Adjusts for a 2-column layout */
-    gap: 15px;
-  }
-
-  /* Adjust weather icon and text for smaller screens */
-  .weather-icon {
-    width: 120px; /* Adjust icon size for mobile screens */
-  }
-
-  .weather h1 {
-    font-size: 50px; /* Adjust font size for temp */
-  }
-
-  .weather h2 {
-    font-size: 30px; /* Adjust font size for city name */
   }
 }
